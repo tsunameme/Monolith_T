@@ -1,11 +1,3 @@
-# SPDX-FileCopyrightText: 2025 Arcticular
-# SPDX-FileCopyrightText: 2025 Arcticular1
-# SPDX-FileCopyrightText: 2025 Ark
-# SPDX-FileCopyrightText: 2025 core-mene
-# SPDX-FileCopyrightText: 2025 starch
-#
-# SPDX-License-Identifier: MPL-2.0
-
 Entries:
 - author: Ark
   changes:
@@ -13835,3 +13827,14 @@ Entries:
   id: 1530
   time: '2025-11-09T14:52:20.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2577
+- author: Arcticular1
+  changes:
+    - type: Fix
+      message: Spaska no longer requires its own playtime
+    - type: Fix
+      message: >-
+        Fortress is now fixed with added atms, proper civ access for the docks
+        and a admin console.
+  id: 1531
+  time: '2025-11-09T19:18:11.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2578
