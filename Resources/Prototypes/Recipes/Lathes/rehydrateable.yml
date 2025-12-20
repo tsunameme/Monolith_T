@@ -10,6 +10,15 @@
     Biomass: 16
 
 - type: latheRecipe
+  id: ChickenCube
+  result: ChickenCube
+  categories: # Mono
+  - Animals
+  completetime: 30
+  materials:
+    Biomass: 30
+    
+- type: latheRecipe
   id: KoboldCube
   result: KoboldCube
   categories: # Mono
@@ -17,6 +26,15 @@
   completetime: 30
   materials:
     Biomass: 16
+
+- type: latheRecipe
+  id: PigCube
+  result: PigCube
+  categories: # Mono
+  - Animals
+  completetime: 30
+  materials:
+    Biomass: 50
 
 - type: latheRecipe
   id: CowCube
