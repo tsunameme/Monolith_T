@@ -11,8 +11,8 @@
   - BioGenEnzyme
   - BioGenFlour
   - BioGenSugar
-  #- BioGenMonkeyCube removed
-  #- BioGenKoboldCube removed
+  #- BioGenMonkeyCube # mono removed to prevent redundancy
+  #- BioGenKoboldCube # mono removed to prevent redundancy
   - BioGenCandle
   - BioGenPlantBGone
   - BioGenWeedKiller
