@@ -3,8 +3,8 @@
 - type: latheRecipePack
   id: FriendlyCubesStatic
   recipes:
-  - ChickenCube
-  - PigCube
+  - ChickenCube #mono
+  - PigCube #mono
   - MonkeyCube
   - KoboldCube
   - CowCube
