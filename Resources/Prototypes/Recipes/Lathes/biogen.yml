@@ -1,5 +1,4 @@
-#Removed to prevent redundancy in Biogenerator
-#- type: latheRecipe
+#- type: latheRecipe # Mono removed to prevent redundancy in Biogenerator
 # id: BioGenMonkeyCube
 # #result: MonkeyCube
 # #categories:
@@ -8,8 +7,7 @@
 # materials:
 #  Biomass: 16 # Mono
 
-#Removed to prevent redundancy in Biogenerator
-#- type: latheRecipe
+#- type: latheRecipe # Mono removed to prevent redundancy in Biogenerator
 # id: BioGenKoboldCube
 # result: KoboldCube
 # categories:
