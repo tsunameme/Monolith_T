@@ -15278,3 +15278,12 @@ Entries:
   id: 1695
   time: '2025-12-28T03:43:42.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2822
+- author: Redrover1760
+  changes:
+    - type: Fix
+      message: Hydrakin now spawn with shoes and survival kits
+    - type: Fix
+      message: Diona now can spawn with shoes
+  id: 1696
+  time: '2025-12-28T03:44:22.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2878
