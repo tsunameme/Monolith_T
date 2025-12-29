@@ -15305,3 +15305,14 @@ Entries:
   id: 1698
   time: '2025-12-29T00:24:50.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2891
+- author: Helicaste
+  changes:
+    - type: Fix
+      message: 'Fixed 14.5mm Big Ammo Boxes not being printable. '
+    - type: Fix
+      message: >-
+        Added Power Cages and Smart Guns to Mercfabs and Military Multi-Purpose
+        Assemblers.
+  id: 1699
+  time: '2025-12-29T00:25:39.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2880
