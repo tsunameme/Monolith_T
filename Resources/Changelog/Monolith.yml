@@ -15501,3 +15501,10 @@ Entries:
   id: 1719
   time: '2026-01-01T14:28:12.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2913
+- author: Nope1356
+  changes:
+    - type: Tweak
+      message: I got bored so I buffed neutron repeater range from 600 to 900 meters
+  id: 1720
+  time: '2026-01-01T14:31:46.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2908
