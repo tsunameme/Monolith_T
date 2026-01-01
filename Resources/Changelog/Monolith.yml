@@ -15449,3 +15449,10 @@ Entries:
   id: 1713
   time: '2026-01-01T04:49:14.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2831
+- author: Ilya246
+  changes:
+    - type: Add
+      message: Added a new type of rammer drone to the outer reaches.
+  id: 1714
+  time: '2026-01-01T05:18:42.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2865
