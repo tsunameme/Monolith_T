@@ -10,7 +10,7 @@
   parent: BaseVessel
   name: JIN Zeros
   description: A truck stop diner ship designed to resemble a semi-truck, complete with a EVA accessable dining room and a small cargo bay.
-  price: 98500
+  price: 112500
   category: Large
   group: Shipyard
   shuttlePath: /Maps/_Mono/Shuttles/zeros.yml
