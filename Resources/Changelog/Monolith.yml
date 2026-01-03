@@ -15707,3 +15707,12 @@ Entries:
   id: 1744
   time: '2026-01-03T02:19:01.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2933
+- author: Ilya246
+  changes:
+    - type: Fix
+      message: >-
+        Borgs and chimeras no longer permanently lie down after being downed
+        once.
+  id: 1745
+  time: '2026-01-03T09:57:15.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2936
