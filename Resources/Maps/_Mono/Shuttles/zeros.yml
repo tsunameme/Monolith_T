@@ -4,8 +4,8 @@ meta:
   engineVersion: 264.0.0
   forkId: ""
   forkVersion: ""
-  time: 01/03/2026 13:48:58
-  entityCount: 1478
+  time: 01/03/2026 13:58:24
+  entityCount: 1480
 maps: []
 grids:
 - 1
@@ -1083,7 +1083,7 @@ entities:
       pos: 1.5,7.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -3625.0696
+      secondsUntilStateChange: -4188.8945
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -1170,16 +1170,16 @@ entities:
     - type: Transform
       pos: 3.5,-17.5
       parent: 1
-  - uid: 221
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 2.5,-37.5
-      parent: 1
   - uid: 930
     components:
     - type: Transform
       pos: 3.5,-21.5
+      parent: 1
+  - uid: 1071
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 2.5,-37.5
       parent: 1
 - proto: AirlockGlass
   entities:
@@ -1996,15 +1996,16 @@ entities:
     - type: Transform
       pos: -4.5,-16.5
       parent: 1
+  - uid: 1427
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 8.5,-41.5
+      parent: 1
   - uid: 1428
     components:
     - type: Transform
       pos: -7.5,-40.5
-      parent: 1
-  - uid: 1429
-    components:
-    - type: Transform
-      pos: 10.5,-39.5
       parent: 1
   - uid: 1430
     components:
@@ -2193,6 +2194,18 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -5.5,-20.5
+      parent: 1
+  - uid: 1479
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -6.5,-39.5
+      parent: 1
+  - uid: 1480
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 10.5,-40.5
       parent: 1
 - proto: AtmosFixFreezerMarker
   entities:
@@ -2400,7 +2413,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: -0.5,-37.5
       parent: 1
-  - uid: 1071
+  - uid: 1156
     components:
     - type: Transform
       rot: 3.141592653589793 rad
@@ -4243,6 +4256,8 @@ entities:
     - type: Transform
       pos: 1.5,12.5
       parent: 1
+    - type: RadarConsole
+      maxRange: 1024
     - type: ApcPowerReceiver
       powerLoad: 5
     - type: Battery
@@ -7303,7 +7318,7 @@ entities:
       parent: 1
 - proto: LockerWallEVAColorServiceWorkerFilled
   entities:
-  - uid: 1156
+  - uid: 1411
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
@@ -8044,7 +8059,7 @@ entities:
       parent: 1
     - type: DeviceLinkSource
       linkedPorts:
-        221:
+        1071:
         - - Pressed
           - DoorBolt
   - uid: 532
@@ -9319,6 +9334,12 @@ entities:
     - type: Transform
       pos: -3.5,-0.5
       parent: 1
+  - uid: 221
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 10.5,-39.5
+      parent: 1
   - uid: 222
     components:
     - type: Transform
@@ -10007,12 +10028,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -7.5,-39.5
       parent: 1
-  - uid: 1427
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 10.5,-39.5
-      parent: 1
 - proto: WallReinforcedDiagonal
   entities:
   - uid: 187
@@ -10264,7 +10279,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -5.5,-5.5
       parent: 1
-  - uid: 1411
+  - uid: 1429
     components:
     - type: Transform
       rot: 3.141592653589793 rad
@@ -10534,7 +10549,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -30879.938
+      secondsUntilStateChange: -31443.764
       state: Opening
     - type: Airlock
       autoClose: False
