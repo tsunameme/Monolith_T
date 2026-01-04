@@ -4,8 +4,8 @@ meta:
   engineVersion: 264.0.0
   forkId: ""
   forkVersion: ""
-  time: 01/04/2026 17:22:12
-  entityCount: 1554
+  time: 01/04/2026 17:30:07
+  entityCount: 1555
 maps: []
 grids:
 - 1
@@ -1112,7 +1112,7 @@ entities:
       pos: 1.5,7.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -14568.356
+      secondsUntilStateChange: -14599.161
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -5827,7 +5827,7 @@ entities:
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
-      pos: -2.118767,-19.442736
+      pos: -2.11791,-19.61214
       parent: 1
   - uid: 1552
     components:
@@ -5865,7 +5865,7 @@ entities:
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
-      pos: -2.1257114,-19.602457
+      pos: -2.1074934,-19.414225
       parent: 1
   - uid: 1551
     components:
@@ -11092,6 +11092,13 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 2.5,-11.5
       parent: 1
+- proto: WaterCooler
+  entities:
+  - uid: 1555
+    components:
+    - type: Transform
+      pos: 0.5,-2.5
+      parent: 1
 - proto: WeaponCapacitorRecharger
   entities:
   - uid: 1481
@@ -11138,7 +11145,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -41823.23
+      secondsUntilStateChange: -41854.035
       state: Opening
     - type: Airlock
       autoClose: False
