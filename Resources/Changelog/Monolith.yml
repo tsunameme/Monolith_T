@@ -15784,3 +15784,14 @@ Entries:
   id: 1751
   time: '2026-01-05T13:18:32.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2953
+- author: burrrkeye
+  changes:
+    - type: Add
+      message: >-
+        A new challanger! BT-Y Hazel enters the PDV Roster as a small-strafer in
+        place of the Vega featuring a 3 barreled 220m Battery! 
+    - type: Remove
+      message: PDV Vega is now gone, o7.
+  id: 1752
+  time: '2026-01-05T16:02:13.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2952
