@@ -662,7 +662,7 @@
   description: A stick of delicious, golden, fatty goodness.
   components:
   - type: Sprite
-    state: rice_noodle_sheet
+    state: butter
   - type: Slippery
   - type: StepTrigger
     intersectRatio: 0.2
