@@ -15819,3 +15819,10 @@ Entries:
   id: 1754
   time: '2026-01-05T16:53:42.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2929
+- author: Arcticular1
+  changes:
+    - type: Tweak
+      message: 'The Flyssa has gotten a new coat of paint! '
+  id: 1755
+  time: '2026-01-05T17:38:34.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2711
