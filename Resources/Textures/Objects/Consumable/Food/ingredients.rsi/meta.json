@@ -94,12 +94,6 @@
       "name": "rice-big"
     },
     {
-      "name": "rice-noodle-sheet"
-    },
-    {
-      "name": "rice-noodle"
-    },
-    {
       "name": "rice-small"
     },
     {
@@ -144,5 +138,11 @@
     {
       "name": "cloth-box"
     },
+    {
+      "name": "rice-noodle-sheet"
+    },
+    {
+      "name": "rice-noodle"
+    }
   ]
 }
