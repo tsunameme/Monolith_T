@@ -2710,3 +2710,15 @@
   recipeType: # Frontier
   - Oven # Mono
   - Microwave # Frontier
+
+- type: microwaveMealRecipe
+  id: RecipeRiceNoodleSheet
+  name: raw rice noodle sheet
+  result: FoodRiceNoodlesSheet
+  time: 15
+  group: Pasta
+  reagents:
+    Rice: 45
+    TableSalt: 10
+    Cornoil: 10
+  recipeType: Assembler
