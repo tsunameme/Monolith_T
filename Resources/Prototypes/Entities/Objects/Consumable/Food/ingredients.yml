@@ -430,12 +430,12 @@
 
 - type: entity
   name: rice noodles sheet
-  parent: FoodInjectableBase
+  parent: FoodBakingBase
   id: FoodRiceNoodlesSheet
   description: A sheet of rice, ready to be chopped into noodles. Probably better cooked.
   components:
   - type: Sprite
-    state: ricenoodlesheet
+    state: rice-noodle-sheet
   - type: SliceableFood
     count: 4
     slice: FoodRiceNoodles
@@ -461,7 +461,7 @@
   description: A nest of delicate rice noodles. Probably better cooked.
   components:
   - type: Sprite
-    state: ricenoodle
+    state: rice-noodle
   - type: SolutionContainerManager
     solutions:
       food:
