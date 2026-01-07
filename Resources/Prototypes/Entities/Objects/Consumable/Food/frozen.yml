@@ -222,30 +222,6 @@
     - pink
 
 - type: entity
-  name: cinnamon mochi
-  parent: FoodFrozenBase
-  id: FoodFrozenMochiSpice
-  description: A delicious blorb of chewey sticky rice encapsulating a core of ice cream. It's spicy! Is that cinnamon?
-  components:
-  - type: Sprite
-    state: spicemochi
-  - type: Food
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 20
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 5
-        - ReagentId: Sugar
-          Quantity: 5
-  - type: FlavorProfile
-    flavors:
-    - rice
-    - icecream
-    - cinnamon
-
-- type: entity
   name: tea mochi
   parent: FoodFrozenBase
   id: FoodFrozenMochiTea
