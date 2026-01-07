@@ -429,6 +429,52 @@
     node: flat
 
 - type: entity
+  name: rice noodles sheet
+  parent: FoodInjectableBase
+  id: FoodRiceNoodlesSheet
+  description: A sheet of rice, ready to be chopped into noodles. Probably better cooked.
+  components:
+  - type: Sprite
+    state: ricenoodlesheet
+  - type: SliceableFood
+    count: 4
+    slice: FoodRiceNoodles
+  - type: Tag
+    tags:
+    - Raw
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 65 # it's a bunch of raw rice. How sad to eat this.
+        reagents:
+        - ReagentId: Rice
+          Quantity: 40
+        - ReagentId: TableSalt
+          Quantity: 10
+        - ReagentId: Cornoil
+          Quantity: 10
+          
+- type: entity
+  name: rice noodles
+  parent: FoodNoodlesBase
+  id: FoodRiceNoodles
+  description: A nest of delicate rice noodles. Probably better cooked.
+  components:
+  - type: Sprite
+    state: ricenoodle
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 20
+        reagents:
+        - ReagentId: Rice
+          Quantity: 10
+        - ReagentId: TableSalt
+          Quantity: 2
+        - ReagentId: Cornoil
+          Quantity: 2
+
+- type: entity
   name: rice dough
   parent: FoodBakingBase
   id: FoodRiceDough

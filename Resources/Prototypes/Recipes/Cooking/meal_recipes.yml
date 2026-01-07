@@ -868,6 +868,19 @@
   - Microwave # Frontier
 
 - type: microwaveMealRecipe
+  id: RecipeRiceNoodleSheet
+  name: raw rice noodle sheet
+  result: FoodRiceNoodlesSheet
+  time: 15
+  group: Pasta
+  solids:
+    FoodRiceDough: 1
+  reagents:
+    TableSalt: 10
+    Cornoil: 10
+  recipeType: Assembler
+
+- type: microwaveMealRecipe
   id: RecipeBoiledRice
   name: boiled rice recipe
   result: FoodRiceBoiled
