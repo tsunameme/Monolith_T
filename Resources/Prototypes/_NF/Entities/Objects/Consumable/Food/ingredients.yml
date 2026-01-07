@@ -303,7 +303,6 @@
 - type: entity
   name: rice dough slice
   parent: FoodBakingBase
-  sprite: _NF/Objects/Consumable/Food/ingredients.rsi
   id: FoodRiceDoughSlice
   description: A slice of rice dough. 
   components:
@@ -311,6 +310,7 @@
     flavors:
       - rice
   - type: Sprite
+    sprite: _NF/Objects/Consumable/Food/ingredients.rsi
     state: rice-dough-slice
   - type: SolutionContainerManager
     solutions:

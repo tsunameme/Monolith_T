@@ -7,6 +7,7 @@
   description: A delicious blorb of chewey sticky rice encapsulating a core of ice cream. Tasty!
   components:
   - type: Sprite
+    sprite: _NF/Objects/Consumable/Food/frozen.rsi
     state: mochi
   - type: Food
   - type: SolutionContainerManager
@@ -31,6 +32,7 @@
   description: A delicious blorb of chewey sticky rice encapsulating a core of ice cream. It's bungo flavored!
   components:
   - type: Sprite
+    sprite: _NF/Objects/Consumable/Food/frozen.rsi
     state: bungomochi
   - type: Food
   - type: SolutionContainerManager
@@ -55,6 +57,7 @@
   description: A delicious blorb of chewey sticky rice encapsulating a core of ice cream. It's cherry flavored!
   components:
   - type: Sprite
+    sprite: _NF/Objects/Consumable/Food/frozen.rsi
     state: cherrymochi
   - type: Food
   - type: SolutionContainerManager
@@ -79,6 +82,7 @@
   description: A delicious blorb of chewey sticky rice encapsulating a core of ice cream. It's chocolate flavored!
   components:
   - type: Sprite
+    sprite: _NF/Objects/Consumable/Food/frozen.rsi
     state: chocomochi
   - type: Food
   - type: SolutionContainerManager
@@ -103,6 +107,7 @@
   description: A delicious blorb of chewey sticky rice encapsulating a core of ice cream. It's woven with fiber!
   components:
   - type: Sprite
+    sprite: _NF/Objects/Consumable/Food/frozen.rsi
     state: fibermochi
   - type: Food
   - type: SolutionContainerManager
@@ -129,6 +134,7 @@
   description: A delicious blorb of chewey sticky rice encapsulating a core of ice cream. It's almost too cute to eat! Almost.
   components:
   - type: Sprite
+    sprite: _NF/Objects/Consumable/Food/frozen.rsi
     state: mothmochi
   - type: Food
   - type: SolutionContainerManager
@@ -153,6 +159,7 @@
   description: A delicious blorb of chewey sticky rice encapsulating a core of ice cream. It's infused with tea!
   components:
   - type: Sprite
+    sprite: _NF/Objects/Consumable/Food/frozen.rsi
     state: teamochi
   - type: Food
   - type: SolutionContainerManager
@@ -177,6 +184,7 @@
   description: A delicious blorb of chewey sticky rice encapsulating a core of ice cream. You're not sure if it's really ube.
   components:
   - type: Sprite
+    sprite: _NF/Objects/Consumable/Food/frozen.rsi
     state: ubemochi
   - type: Food
   - type: SolutionContainerManager
