@@ -258,7 +258,7 @@
           
 - type: entity
   name: rice noodles
-  parent: FoodRiceNoodles
+  parent: FoodNoodlesBase
   id: FoodRiceNoodles
   description: A nest of delicate rice noodles. Probably better cooked.
   components:
