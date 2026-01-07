@@ -231,11 +231,12 @@
 
 - type: entity
   name: rice noodles sheet
-  parent: FoodBakingBase
+  parent: FoodInjectableBase
   id: FoodRiceNoodlesSheet
   description: A sheet of rice, ready to be chopped into noodles. Probably better cooked.
   components:
   - type: Sprite
+    sprite: _NF/Objects/Consumable/Food/ingredients.rsi
     state: rice-noodle-sheet
   - type: SliceableFood
     count: 4
@@ -257,11 +258,12 @@
           
 - type: entity
   name: rice noodles
-  parent: FoodBakingBase
+  parent: FoodRiceNoodles
   id: FoodRiceNoodles
   description: A nest of delicate rice noodles. Probably better cooked.
   components:
   - type: Sprite
+    sprite: _NF/Objects/Consumable/Food/ingredients.rsi
     state: rice-noodle
   - type: SolutionContainerManager
     solutions:
@@ -285,6 +287,7 @@
     flavors:
       - rice
   - type: Sprite
+    sprite: _NF/Objects/Consumable/Food/ingredients.rsi
     state: rice-dough
   - type: SliceableFood
     count: 4
@@ -300,6 +303,7 @@
 - type: entity
   name: rice dough slice
   parent: FoodBakingBase
+  sprite: _NF/Objects/Consumable/Food/ingredients.rsi
   id: FoodRiceDoughSlice
   description: A slice of rice dough. 
   components:
