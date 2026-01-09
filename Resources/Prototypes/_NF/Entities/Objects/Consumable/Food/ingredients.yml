@@ -320,7 +320,7 @@
         - ReagentId: Rice
           Quantity: 10
 
-- type:entity       
+- type: entity       
   parent: FoodMeatBase
   id: FoodSausageRaw
   name: raw sausage
