@@ -15916,3 +15916,88 @@ Entries:
   id: 1765
   time: '2026-01-08T20:53:51.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2941
+- author: thoughtlessuser
+  changes:
+    - type: Tweak
+      message: >-
+        Replaced the old Frontier Valet role with the Colossus sector service
+        worker role.
+  id: 1766
+  time: '2026-01-09T00:51:31.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2682
+- author: YazidDotExe
+  changes:
+    - type: Add
+      message: new militia gun called MI Lee Enfield Mk 98
+  id: 1767
+  time: '2026-01-09T00:53:55.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2860
+- author: tonotom1
+  changes:
+    - type: Tweak
+      message: >-
+        Velocity threshold for collisions was increased such that Baegs vaporize
+        at above 35m/s instead of 14m/s. This is about 2 seconds worth of
+        acceleration.
+    - type: Tweak
+      message: >-
+        Collision kinetic energy consumption increased to compensate for our
+        overall increased speeds. Ramming should still be lethal as fuck and
+        only slightly nerfed.
+  id: 1768
+  time: '2026-01-09T00:57:18.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2985
+- author: NazrinNya
+  changes:
+    - type: Tweak
+      message: Caput has been remapped.
+  id: 1769
+  time: '2026-01-09T13:56:22.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2994
+- author: Arcticular1
+  changes:
+    - type: Add
+      message: Added command comms and access to the PDV.
+    - type: Add
+      message: Helios now has an AI and a dedicated civilian dock.
+    - type: Tweak
+      message: >-
+        Helios has had it's defenses and shipguns changed and nerfed, outer
+        turrets have also been replaced with standard ballistic ones.
+  id: 1770
+  time: '2026-01-09T14:12:00.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2992
+- author: Arcticular1
+  changes:
+    - type: Remove
+      message: Removed the prowler and sable.
+    - type: Add
+      message: Hazel is now in the Jupiter shipyard
+  id: 1771
+  time: '2026-01-09T14:21:04.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2990
+- author: Ilya246
+  changes:
+    - type: Add
+      message: >-
+        Drone control consoles can now autolink docked drones by altclicking the
+        console.
+    - type: Add
+      message: Drone control consoles now have a max range.
+    - type: Add
+      message: >-
+        Drone control consoles now detect from their linked drones. You can use
+        them to scout.
+    - type: Tweak
+      message: Ship AI will now target gunnery consoles.
+    - type: Fix
+      message: >-
+        Outer reach ships converted to a piloted ship will now be targeted by
+        drones.
+    - type: Fix
+      message: >-
+        Crown (the shooting outer-drone) will no longer keep firing even without
+        power.
+  id: 1772
+  time: '2026-01-09T17:56:38.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2943
