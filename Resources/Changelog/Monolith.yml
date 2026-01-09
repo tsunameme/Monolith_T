@@ -15925,3 +15925,10 @@ Entries:
   id: 1766
   time: '2026-01-09T00:51:31.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2682
+- author: YazidDotExe
+  changes:
+    - type: Add
+      message: new militia gun called MI Lee Enfield Mk 98
+  id: 1767
+  time: '2026-01-09T00:53:55.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2860
