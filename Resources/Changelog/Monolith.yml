@@ -16225,3 +16225,13 @@ Entries:
   id: 1795
   time: '2026-01-16T13:17:25.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3042
+- author: tonotom1
+  changes:
+    - type: Tweak
+      message: >-
+        Far ring ship cores had their collisions shrunk. This prevents couch
+        moving problems and thus facilitates unimpeded collection of your
+        trophies.
+  id: 1796
+  time: '2026-01-16T19:46:16.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3048
