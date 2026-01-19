@@ -16357,3 +16357,10 @@ Entries:
   id: 1810
   time: '2026-01-19T16:55:30.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2905
+- author: Onezero0
+  changes:
+    - type: Add
+      message: Power generators have radar blips now.
+  id: 1811
+  time: '2026-01-19T17:35:52.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3021
