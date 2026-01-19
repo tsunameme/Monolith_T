@@ -16335,3 +16335,14 @@ Entries:
   id: 1808
   time: '2026-01-19T16:22:04.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2630
+- author: Helicaste
+  changes:
+    - type: Add
+      message: >-
+        Cleanades and Metal Foam Nades are now available for printing at the
+        Service Techfab and Engineering Techfab respectively.
+    - type: Tweak
+      message: Air Alarms no longer instantly detonate linked grenades.
+  id: 1809
+  time: '2026-01-19T16:22:59.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3030
