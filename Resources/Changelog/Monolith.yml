@@ -16396,3 +16396,10 @@ Entries:
   id: 1815
   time: '2026-01-19T18:27:11.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2972
+- author: cloudyias
+  changes:
+    - type: Tweak
+      message: Polished silicon ion laws to fit the setting more.
+  id: 1816
+  time: '2026-01-19T18:30:00.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3026
